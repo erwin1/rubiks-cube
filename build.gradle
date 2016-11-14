@@ -3,7 +3,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'org.javafxports:jfxmobile-plugin:1.1.0'
+        classpath 'org.javafxports:jfxmobile-plugin:1.1.1'
     }
 }
 
@@ -19,7 +19,7 @@ repositories {
 mainClassName = 'com.gluonhq.rubik.GluonRubik'
 
 dependencies {
-    compile 'com.gluonhq:charm:4.0.0'
+    compile 'com.gluonhq:charm:4.1.0'
 }
 
 jfxmobile {
