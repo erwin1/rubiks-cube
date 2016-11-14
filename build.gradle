@@ -7,6 +7,9 @@ buildscript {
     }
 }
 
+plugins {
+    id "com.github.hierynomus.license" version "0.13.1"
+}
 apply plugin: 'org.javafxports.jfxmobile'
 
 repositories {
@@ -41,5 +44,12 @@ jfxmobile {
                 'javax.json.**.*',
                 'org.glassfish.json.**.*'
         ]
+    }
+}
+
+license {
+    skipExistingHeaders
+    mapping {
+        fxml = 'XML_STYLE'
     }
 }
