@@ -18,13 +18,13 @@ Instructions
 To execute the sample, do as follows:
 
 * Desktop
-> Just run it from your IDE or from command line: `./gradlew run`
+> Just run it from your IDE or from command line: `.\gradlew run`
 * Android
 > Connect your Android device and run `./gradlew androidInstall`
 * iOS
 > Connect your iOS device and run `./gradlew launchIOSDevice`
 * Desktop
-> `./gradlew run`
+> `.\gradlew run`
 
 Documentation
 -------------
